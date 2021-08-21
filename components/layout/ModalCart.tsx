@@ -8,12 +8,12 @@ const ModalCart = ({ closeModal,}: {closeModal: MouseEventHandler<HTMLButtonElem
       <section className="fixed top-0 right-0 max-h-screen bg-black border border-t-0 border-r-0 overflow-y-auto z-10">
         <div className="py-10 px-8 flex flex-col content-end justify-end">
           <button
-            className="mb-2 ml-auto text-4xl uppercase"
+            className="mb-2 ml-auto text-2xl uppercase"
             onClick={closeModal}
           >
             → Close
           </button>
-          <div className="mb-4 grid grid-cols-1 sm:grid-cols-2 gap-x-10 uppercase text-9xl text-center font-bold">
+          <div className="mb-4 grid grid-cols-1 sm:grid-cols-2 gap-x-10 uppercase text-8xl text-center font-bold">
             <p className="">Your</p>{" "}
             <p className="text-black" style={{ WebkitTextStroke: "2px #fff" }}>
               Cart

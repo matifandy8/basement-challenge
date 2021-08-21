@@ -17,7 +17,7 @@ const Nav = (): JSX.Element => {
         <Image alt="Basement" height="45" src={favicon} width="54" />
       </div>
 
-      <div className="hidden sm:inline-block">
+      <div className="pt-3 hidden sm:inline-block">
         <Image alt="hd-4k icons" src={hd} />
       </div>
 
